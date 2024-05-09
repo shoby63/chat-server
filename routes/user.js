@@ -6,7 +6,7 @@ const authController = require("../controllers/authController");
 router.post(
   "/generate-token",
   authController.protect,
-  userController.generateZegoToken
+  userController.generateToken
 );
 
 
